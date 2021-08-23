@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>
+            Nigeria State And Capital
+        </title>
+        <style>
+            body{
+                background-color: goldenrod;
+                color: fuchsia;
+                border-radius: 50%;
+                border-style: dotted;
+                border-color: maroon;
+                height: 300px;
+                width: 300px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>State And Capital</h1>
+        <ol>
+            <li>Abia 
+                <ul>
+                    <li>Umuhia</li>
+                </ul>
+            </li>
+            <li>Adamawa 
+                <ul>
+                    <li>Yola</li>
+                </ul>
+            </li>
+            <li>Akwa Ibom 
+                <ul>
+                    <li>Uyo</li>
+                </ul>
+            </li>
+        </ol>
+
+    </body> 
+    <script>
+       
+
+        // for( let i = 1; i < 100; i += 1 ){
+        //     if (i % 2 === 0)
+        //     {   
+        //         console.log(i + " is an even number")
+        //     }
+        //     else {
+        //         console.log(i + " is an odd number")
+        //     }
+        // }
+        
+        // let a = 1
+        // let b = -12
+        // let c = 8
+
+        let a = prompt("What is the value of a?")
+        let b = prompt("What is the value of b?")
+        let c = prompt("What is the value of c?")
+
+        let positive_quadratic_root = ( - b + Math.sqrt( Math.pow(b,2) - ( 4 * a * c ) ) ) / ( 2 * a )
+        let negative_quadratic_root = ( - b - Math.sqrt( Math.pow(b,2) - ( 4 * a * c ) ) ) / ( 2 * a )
+        
+        console.log({positive_quadratic_root}, {negative_quadratic_root})
+    </script>
+</html>
